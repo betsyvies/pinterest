@@ -1,0 +1,124 @@
+/*setear nuestros archivos*/
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*clases especificas*/
+
+.bar {
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: inline-block;
+}
+
+li a{
+    color: gray;
+}
+
+#pinterest .red{
+    color: rgb(194, 10, 10);
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+#box-icons{
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    margin: 0 16px;
+    width: 80%;
+    padding: 10px;
+}
+
+input{
+    width: 80%;
+    border: none;
+    line-height: 20px;
+    font-size: 18px;
+    outline: 0;
+    background-color: transparent;
+    font-family: sans-serif;
+
+}
+
+.box-buttons{
+    text-align: center;
+}
+
+.box-buttons .button-1 {
+    background-color: rgba(86, 75, 150, 0.8);
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700; 
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.box-buttons .button-2 {
+    background-color: rgba(100, 214, 55, 0.8);
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700; 
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.box-buttons .button-3 {
+    background-color: rgba(118, 204, 219, 0.459);
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700; 
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.box-buttons .button-4 {
+    background-color: rgba(216, 19, 167, 0.8);
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700; 
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.box-buttons .button-5 {
+    background-color: rgba(216, 30, 30, 0.589);
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 700; 
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.image {
+	width: 282px;
+    border-radius: 20px;
+}
+
+.imagenes{
+    padding: 0 50px;
+    margin-top: 50px;
+}
+
+.floating-box {
+	float: left;
+	width: 282px;
+	margin: 10px; 
+}
+
+hr{
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;;
+    border: 0.5px solid rgb(223, 223, 223);
+}
