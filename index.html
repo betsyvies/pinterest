@@ -4,87 +4,204 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assest/icons/icomoon/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Pinterest</title>
 </head>
 <body>
-    <!--Crear el encabezado-->
-    <ul class="bar">
-        <li id="pinterest">
-            <a class = "red" href="#">
-                <span class="icon-pinterest"></span>
-            </a>
-        </li>
-        <!--Crear barra de navegación-->
-        <li id="box-icons">
-            <div>
-                <a class="icon">
-                    <span class="icon-search"></span>
-                </a> 
-                <input type="text" placeholder="JavaScript">
-                    <span>
-                        <i class="icon-cross"></i> 
-                        All Pins                         
-                    </span>
-                    <i class="icon-embed"></i>
-                </div>
-            </li>
-            <li><a class="icon"><span class="icon-user"></span></a></li>
-            <li><a class="icon"><span class="icon-menu"></span></a></li>
-            <li><a class="icon"><span class="icon-bubble"></span></a></li>
+    <header>
+        <nav class="main-menu">
+            <ul>
+                <li class="logo">
+                    <a href="">
+                        <i class="fa fa-pinterest fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="search">
+                    <div class="search-box">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <form action="">
+                            <input type="text" placeholder="Buscar ">
+                        </form>
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                    <div class="search-filter">
+                        <span>All pins</span>
+                        <i class="fa fa-chevron-down"></i>
+                    </div>
+                </li>
+                <li class="gray-icon">
+                    <a href="">
+                    <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="gray-icon">
+                    <a href="">
+                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="gray-icon">
+                    <a href="">
+                    <i class="fa fa-comment fa-lg" aria-hidden="true"></i>
+                    </a>
+                </li>
             </ul>
-        <hr>
-        <!--Creando buttons-->
-        <div class="box-buttons">
-            <div class="button-1">
-                <p>Tutorial</p>
-            </div>
-            <div class="button-2">
-                <p>Fun</p>
-            </div>
-            <div class="button-3">
-                <p>Landscapes</p>
-            </div>
-            <div class="button-4">
-                <p>Posts</p>
-            </div>
-            <div class="button-5">
-                <p>Videos</p>
-            </div>  
-        </div>
+        </nav>
+        <ul class="filter-menu li">
+            <li>
+                <span>Fondos</span>
+            </li>
+            <li>
+                <span>Manualidades</span>
+            </li>
+            <li>
+                <span>Frases</span>
+            </li>
+            <li>
+                <span>Playeras</span>
+            </li>
+            <li>
+                <span>Hechizos</span>
+            </li>
+            <li>
+                <span>Personajes</span>
+            </li>
+            <li>
+                <span>Dibujos</span>
+            </li>
+            <li>
+                <span>Ilustracion</span>
+            </li>
+            <li>
+                <span>Fiesta</span></li>
+        </ul>
     </header>
-    <section id="imagenes">
-        <div class="post">
-            <img src="assest/images/img-1.jpg" alt="img-1">
-        </div>
-        <div class="post1">
-            <img src="assest/images/img-2.jpg" alt="img-2">
-        </div>
-        <div class="post2">
-            <img src="assest/images/img-3.jpg" alt="img-3">
-        </div>
-        <div class="post3">
-            <img src="assest/images/img-4.jpg" alt="img-4">
-        </div>
-        <div class="post4">
-            <img src="assest/images/img-5.jpg" alt="img-5">
-        </div>
-        <div class="post5">
-            <img src="assest/images/img-6.jpg" alt="img-6">
-        </div>
-        <div class="post6">
-            <img src="assest/images/img-7.jpg" alt="img-7">
-        </div>
-        <div class="post7">
-            <img src="assest/images/img-8.jpg" alt="img-8">
-        </div>
-        <div class="post8">
-            <img src="assest/images/img-9.jpg" alt="img-9">
-        </div>
-        <div class="post9">
-            <img src="assest/images/img-10.jpg" alt="img-10">
-        </div>
+    <section class="search-result">
+            <div class="post">
+                <img src="assest/images/img-1.jpg" alt="img-1">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-2.jpg" alt="img-2">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-3.jpg" alt="img-3">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-4.jpg" alt="img-4">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-5.jpg" alt="img-5">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-6.jpg" alt="img-6">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-7.jpg" alt="img-7">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-8.jpg" alt="img-8">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-9.jpg" alt="img-9">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-10.jpg" alt="img-10">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-11.jpg" alt="img-11">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-12.jpg" alt="img-12">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-13.jpg" alt="img-13">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-14.jpg" alt="img-14">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-15.jpg" alt="img-15">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-16.jpg" alt="img-16">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-17.jpg" alt="img-17">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-18.jpg" alt="img-18">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-19.jpg" alt="img-19">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-20.jpg" alt="img-20">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-21.jpg" alt="img-21">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-22.jpg" alt="img-22">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-23.jpg" alt="img-23">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-24.jpg" alt="img-24">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-25.jpg" alt="img-25">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-26.jpg" alt="img-26">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-27.jpg" alt="img-27">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-28.jpg" alt="img-28">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-29.jpg" alt="img-29">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-30.jpg" alt="img-30">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-31.jpg" alt="img-31">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-32.jpg" alt="img-32">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-33.jpg" alt="img-33">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-34.jpg" alt="img-34">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-35.jpg" alt="img-35">
+            </div>
+            <div class="post">
+                <img src="assest/images/img-36.jpg" alt="img-36">
+            </div>
+            <div class="info">
+            <div class="post-info">
+                    <h5>Game of thrones</h5>
+                    <p class="description">La serie</p>
+            </div>
+            <div class="user-info">
+                    <div class="user-name">
+                       <div class="first-letter">
+                           <span>B</span>
+                       </div>
+                    <span class="full-name">Jaime Thomsomp</span>
+                </div>
+            </div>
+            <div class="hashtag">
+                #scopp.it
+            </div>
     </section>
 </body>
 </html>

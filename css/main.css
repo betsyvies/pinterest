@@ -1,211 +1,124 @@
-/*setear nuestros archivos*/
-body{
-    font-family: sans-serif;
+*{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
+body {
+    margin: 0;
+}
 
-/*clases especificas*/
+/*Styles for the header*/
 
-.bar {
-    height: 250px;
-    width: 1500px;
+header {
     position: fixed;
-    z-index: 10;;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    background: #fff;
 }
 
-ul{
-    padding: 0;
-    margin: 0;
+header ul {
     list-style: none;
-}
-li{
-    width: 100px;
+    margin: 0;
+    padding: 10px 20px;
     text-align: center;
-    float: left;
+    width: 100%;
 }
 
-li a{
-    text-decoration: none;
-    color: gray;
+header li {
+    display: inline-block;
 }
 
-#pinterest .red{
-    color: rgb(194, 10, 10);
-    margin-left: 20px;
-    font-size: 30px;
+/*Style for menu*/
+
+.main-menu {
+    border-bottom: 1px solid #b5b5b5;
+}
+.logo a {
+    color: #bd081c;
+}
+ .logo a:hover {
+     color: #000000;
+ }
+
+.logo i {
+    height: 100%;
+    vertical-align: middle;
 }
 
-#box-icons{
-    background-color: rgb(239, 239, 239);
-    border-radius: 5px;
-    margin: 0 16px;
-    width: 80%;
+.search {
+     border-radius: 6px;
+     background-color: #efefef;
+     margin: 0 20px;
+     width: 70%;
+}
+
+.search-box, .search-filter {
+    display: inline-block;
+}
+
+.search-box {
+    width: 85%;
     padding: 10px;
 }
 
-input{
-    width: 80%;
+.search-box form {
+    display: inline-block;
+    width: 85%;
+}
+
+.search-box input {
+    background-color:transparent;
     border: none;
-    line-height: 20px;
+    outline: none; 
     font-size: 18px;
-    outline: 0;
-    background-color: transparent;
-    font-family: sans-serif;
-
+    width: 100%;
 }
 
-hr{
-    position: relative;
-    margin-top: 30px;;
-    border: 1px solid rgb(223, 223, 223);
+.gray-icon {
+    padding: 0 10px;
 }
 
-/*Estilizando los botones*/
-.box-buttons{
-    top: 50px;
-    bottom: auto;
-    text-align: center;
+.gray-icon i {
+    color: #b5b5b5;
 }
 
-.box-buttons .button-1 {
-    background-color: rgba(86, 75, 150, 0.8);
-    color: #fff;
-    padding: 20px 30px;
-    font-weight: bold; 
+/*Styles for filter menu*/
+
+.filter-menu li {
     border-radius: 6px;
-    display: inline-block;
-    margin-top: 5px;
+    height: 60px;
+    margin: 5px;
+    background-color: gray;
+    background-image: url("../assest/images/img-9.jpg");
 }
-
-.box-buttons .button-2 {
-    background-color: rgba(100, 214, 55, 0.8);
+.filter-menu span {
     color: #fff;
-    padding: 20px 30px;
-    font-weight: bold; 
+    display: block;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 24px; /*Para mayor especificidad */
+    width: 100%;
+    height: 100%;
     border-radius: 6px;
-    display: inline-block;
-    margin-top: 5px;
+    background-color: rgba(7, 7, 7, 0.5);
+    cursor: pointer; /*Usamos esta propiedad para que aparezca la manito*/
 }
+/*Styles for search result*/
 
-.box-buttons .button-3 {
-    background-color: rgba(118, 204, 219, 0.459);
-    color: #fff;
-    padding: 20px 30px;
-    font-weight: bold; 
-    border-radius: 6px;
-    display: inline-block;
-    margin-top: 5px;
-}
-
-.box-buttons .button-4 {
-    background-color: rgba(216, 19, 167, 0.8);
-    color: #fff;
-    padding: 20px 30px;
-    font-weight: bold; 
-    border-radius: 6px;
-    display: inline-block;
-    margin-top: 5px;
-}
-
-.box-buttons .button-5 {
-    background-color: rgba(216, 30, 30, 0.589);
-    color: #fff;
-    padding: 20px 30px;
-    font-weight: bold; 
-    border-radius: 6px;
-    display: inline-block;
-    margin-top: 5px;
-}
-
-.imagenes{
-    position: relative;
-    display: inline-block;
-    width: 1550px;
-    height: 1500px;
-    font-weight: 900;
+.search-result {
+    margin: 170px 80px 50px; 
+    min-width: 900px;
+    column-count: 4;
+    column-gap: 20px;
 }
 
 .post {
-    position: relative;
-    margin: 20px;
-    padding: 10px;
-    float: left; 
+   margin-bottom: 20px;
 }
 
-img {
-    width: 50%;
+.post img {
+    width: 100%;
     border-radius: 20px;
 }
-
-img[alt="img-1"]{
-    top: 250px;
-    height: 300px;
-    width: 200px;
-}
-
-img[alt="img-2"]{
-    width: 280px;
-    top: 200px;
-    height: 400px;
-}
-
-img[alt="img-3"]{
-    top: 350px;
-    width: 200px;
-    height: 210px;
-}
-
-img[alt="img-4"]{
-    top: 240px;
-    width: 270px;
-    height: 430px;
-}
-
-img[alt="img-5"]{
-    width: 290px;
-    height: 270px;
-    top: 150px;
-}
-
-img[alt="img-6"]{
-    width: 300px;
-    height: 540px;
-    top: 140px;
-}
-
-img[alt="img-7"]{
-    width: 230px;
-    height: 250px;
-    top: 240px;
-    left: 30px;
-}
-
-img[alt="img-8"]{
-    width: 180px;
-    height: 410px;
-    top: 230px;
-    left: 140px;
-
-}
-
-img[alt="img-9"]{
-    width: 260px;
-    height: 340px;
-    top: 220px;
-    left: 130px;
-}
-
-img[alt="img-10"]{
-    width: 220px;
-    height: 340px;
-    top: 270px;
-    left: 120px;
-}
-section img{
-    max-width: 100%;
-}
-
-
