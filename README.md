@@ -25,4 +25,4 @@
 - css, para darle estilo al contenido.
 
 ## Imagen
-![Freelancer](assest/imagenes/pinterest.png)
+![Freelancer](assest/images/pinterest.png)
